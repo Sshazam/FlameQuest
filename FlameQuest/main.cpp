@@ -1,5 +1,7 @@
-#include <iostream>
+#include "necrogen.h"
 
 int main() {
-	std::cout << "Hello world!" << std::endl;
+	int options;
+	coutOps({ "Test1","test2","test3","test4" }, options);
+	std::cout << options << std::endl;
 }
